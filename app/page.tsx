@@ -1,10 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from "@/components/pages/sections/Hero";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <h1>Track On</h1>
+      <Hero />
     </main>
   );
 }
